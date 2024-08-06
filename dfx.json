@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "rust_wallet_backend": {
+      "candid": "src/rust_wallet_backend/rust_wallet_backend.did",
+      "package": "rust_wallet_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
