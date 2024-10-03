@@ -3,7 +3,7 @@ use candid::{CandidType, Deserialize, Nat};
 use ic_cdk_macros::*;
 use std::collections::HashMap;
 
-// Define the Account struct
+// Define an Account struct
 #[derive(CandidType, Deserialize, Clone)]
 struct Account {
     owner: String,
